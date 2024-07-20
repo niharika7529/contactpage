@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+    <style>
+        h1 {
+            color: darkmagenta;
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-decoration-line: underline;
+        }
+
+        body {
+            background-image: url(https://img.freepik.com/premium-photo/desk-with-office-elements_7192-814.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+            margin-top: 40px;
+            margin-left: 40px;
+            margin-right: 40px;
+            margin-right: 40px;
+        }
+
+        .label {
+            color: darkred
+        }
+    </style>
+</head>
+
+<body>
+   
+    <br><br><br>
+    <h1>CONTACT US &nbsp;</h1>
+    <h2>Fill out the form below to learn more!</h2><br>
+    <div>
+        <form>
+            <label class="label">FIRST NAME:</label>
+            <input type="text" placeholder="enter first name" /><br><br>
+
+            <label class="label">LAST NAME:</label>
+            <input type="text" placeholder="enter last name" /><br><br>
+
+            <label class="label"> AGE:</label>
+            <input type="text" /><br><br>
+
+            <label class="label">E_MAIL:</label>
+            <input type="email" name="email" /><br><br>
+
+            <label class="label">DATE OF BIRTH:</label>
+            <input type="date" /><br><br>
+
+            <label class="label">GENDER:</label>
+            <input type="radio" id="male" name="gender" value="male" />
+            <label>male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label>female</label><br><br>
+
+            <label class="label">ADDRESS:</label>
+            <textarea rows="6" cols="20" placeholder="enter ADDRESS">
+
+        </textarea><br><br>
+            <label class="label">COURSE:</label>
+            <select name="course" id="select">
+                <option>--select--</option>
+                <option>mern full stack</option>
+                <option>mean full stack</option>
+                <option>java full stack</option>
+                <option>data science</option>
+                <option>cloud computing</option>
+            </select><br><br>
+            <label class="label">LANGUAGE:</label>
+            <input type="checkbox" value="english" />English
+            <input type="checkbox" value="hindi" />Hindhi
+            <input type="checkbox" value="telugu" />Telugu
+            <input type="checkbox" value="urdhu" />Urdhu<br><br>
+
+            <label class="label">PROFILE PICTURE:</label>
+            <input type="file" /><br><br>
+
+            <input type="submit" style="background-color:grey; color: black;" />
+
+            <button type="clear" style="background-color:grey; color: black;">clear</button>
+
+            <input type="reset" style="background-color:grey; color: black;" />
+
+        </form>
+        <div </body>
+
+</html>
